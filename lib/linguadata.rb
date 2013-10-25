@@ -1,5 +1,8 @@
 require "linguadata/version"
+require "date"
 
 module Linguadata
-  # Your code goes here...
+  def self.today
+    DateTime.now
+  end
 end
